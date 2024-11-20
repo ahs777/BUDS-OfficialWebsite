@@ -1,4 +1,3 @@
-import React from 'react'
 import { useSelector } from 'react-redux'
 
 function LandingPage() {
@@ -11,4 +10,4 @@ console.log(msg)
   )
 }
 
-export default LandingPage
+export default LandingPage;
