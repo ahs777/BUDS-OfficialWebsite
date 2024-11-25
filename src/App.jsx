@@ -6,14 +6,13 @@ import EventsPage from './Pages/EventsPage'
 import GalleryPage from './Pages/GalleryPage'
 import NewsPage from './Pages/NewsPage'
 import ProtectedRoutes from './Pages/ProtectRoutes/ProtectedRoutes'
-import Navbar from './Components/Navbar'
+
 import Footer from './Components/Footer'
 function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
+      <BrowserRouter>  
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/bu/gallery" element={<GalleryPage />} />
@@ -24,7 +23,7 @@ function App() {
             {/* <Route path="/mart/wishlist" element={<MartWishList  />}/> */}
           </Route>
         </Routes>
-        <Footer />
+      
       </BrowserRouter>
     </>
   )

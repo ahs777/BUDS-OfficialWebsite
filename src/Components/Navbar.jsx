@@ -93,7 +93,7 @@ function Navbar() {
           <div className="flex items-center justify-between">
             <a className="h-20 size-auto" href="/">
               <img
-                src="src/assets/buds-new.png"
+                src="src\assets\buds.png"
                 className="max-md:h-16 max-md:mt-2 h-28"
                 alt="LOGO"
                 loading="lazy"
