@@ -100,11 +100,12 @@ function Navbar() {
               />
             </a>
             <ul className="md:hidden flex gap-7 text-sm  text-lightBlue-textPrimary font-semibold">
-              {Links.map((link) => (
-                <li>
-                  <a href={link.link}>{link.name}</a>
-                </li>
-              ))}
+            {Links.map((link, index) => (
+  <li key={index}>
+    <a href={link.link}>{link.name}</a>
+  </li>
+))}
+
                   <button
               ref={buttonRef}
               className="text-sm font-bold mr-3 -mt-1/2 text-lightBlue-secondaryBg px-3 py-1 rounded-lg bg-gradient-to-r to-lightBlue-accentPrimary from-lightBlue-textPrimary"
